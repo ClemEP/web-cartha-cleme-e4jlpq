@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang ="fr">
+
+ <!--métadonnées -->
+
+  <head>
+    <title> le site de Clem </title> 
+    <meta name ="descritpion" content ="Première page web">
+    <meta name = "twtitter:image" content ="...">
+    <meta charset="UTF-8">
+    <script src="script.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+
+     <!-- définition des styles  -->
+    <style>
+    header {background-image: url("https://mastergeoprisme.files.wordpress.com/2016/03/carthageo.jpg?w=300")
+     }
+    footer {background : grey;
+    }
+    body {background : green;
+    color : orange}
+    .contenu {
+      border-bottom : 2px;
+      color : blue
+    }
+    </style>
+  </head>
+
+ <!--Contenu -->
+
+ <!--Entete -->
+  <div class = "Entete">
+    <header>
+  <body>
+    <h1>Yeeeeah! Ici le site de Clem</h1> 
+    </header>
+  </div>
+    <div id ="menu">
+      <li class ="menu">Le matin
+      <li class>L'après-midi
+      <li class> <a href="form.html">Formulaire </a>
+      </li>
+      </li>
+    </div>
+
+ <!--PARTIE 1 -->
+
+    <h2> Matin</h2> 
+      <div class ="contenu">
+      <h3> 8h00 - 10h00 </h3>
+      <img style = "width=3px, heigth=10px" 
+      src="https://mastergeoprisme.files.wordpress.com/2016/03/carthageo.jpg?w=300">
+      <p>Problème de connexion à cause du  <strong>Confifi. </strong> </p>
+      </div>
+      <h3> 10h00 - 11h00 </h3>
+      <p>Lalala, j'ai un peu <strong>faim. </strong> </p>
+      <a href="http://www.google.fr">lien vers google</a>
+
+      <h3> 11h00 - 12h00 </h3>
+      <ol>
+        <li>Puce</li>
+            <ol>
+            <li>Puce</li>
+            <li>Puce</li>
+      </ol> 
+        <li>Puce</li>
+            <ol>
+            <li>Puce</li>
+            <li>Puce</li>
+      </ol> 
+      </ol> 
+<div id = "block-droit" class ="fond-vert">
+  <table>
+  <tr>
+    <td>Cellule 1</td>
+    <td>Cellule 2</td>
+    <td>Cellule 3</td>
+  </tr>
+  <tr>
+    <td>Cellule 1</td>
+    <td>Cellule 2</td>
+    <td>Cellule 3</td>
+  </tr>
+    <tr>
+    <td>Cellule 1</td>
+    <td>Cellule 2</td>
+    <td>Cellule 3</td>
+  </tr>
+</table>
+
+ <!--PARTIE 2 -->
+<h2> Après-midi</h1> 
+
+  <h3> 13h25 - 14h57 </h3>
+   <p> Apprentissage des balises et exo 
+   </p>
+
+  <h3> 9h00 - 10h00 </h3>
+   <p> Apprentissage des balises et exo 
+   </p>
+
+  <h3> 9h00 - 10h00 </h3>
+     <p>Lalala, j'ai <strong> plus faim. <em> test </em> </strong> </p>
+      <ul>
+        <li> le  cours est disponible en ligne :<a href="https://ensg_dei.gitlab.io/web-az/html/balises/" title="Le cours ">ici
+        </a></li>
+      </ul>
+          <ul>
+        <li>Balise</li>
+          </ul>
+        <p> 
+          <a href ="page/2.htlml">
+            page 2 (adresse relative)
+           <a/>
+           exemple d'insertion d'image:
+           <img style = "width: 150px;heigth: 10px" src="https://mastergeoprisme.files.wordpress.com/2016/03/carthageo.jpg?w=300" alt="TexteAlternatif">
+        </p>
+
+
+  <div id = "form">    
+  <h4> Formulaire </h4>
+  <form action="page.php" method="get">
+  
+    <h5> Informations personnelles </h5>
+        <label> Prénom <input type ="text" name = "prenom">
+        <label> Nom <input type ="text" name = "prenom">
+        <p> </p>
+        <label> Age <select name="age">
+        <p> </p>
+        <option value="20">0-20 ans</option>
+        <option value="40" selected>21-40 ans</option>
+        <option value="60">41-60 ans</option>
+        <option value="80">61-80 ans</option>
+        </select>
+      <p> </p>
+    <input type="password" name ="password">
+    <label>Oui<input type="radio" name ="ouinon" value="1"></label>
+    <label>Non<input type="radio" name ="ouinon" value="1"></label>
+
+    <textarea name="infos"></textarea> 
+
+   
+    </form>
+</div>
+
+<footer> Clémence Ehrhart--Pignon</footer>
+      
+    <a href="/me.html">My other page</a>
+  </body>
+
+</html>
