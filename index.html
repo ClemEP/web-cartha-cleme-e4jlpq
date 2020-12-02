@@ -13,15 +13,19 @@
 
      <!-- définition des styles  -->
     <style>
-    header {color : white;
+    header {color : black;
+    background-color : red
      }
-    footer {background : grey;
+    footer {background : black;
     }
-    body {background : grey;
-    color : orange}
+    body {background : black;
+    color : white}
     .contenu {
-      border-bottom : 2px;
-      color : blue
+      border-bottom : 2px solid grey;
+      color : white
+    }
+    .red{
+      border-color : red;
     }
     </style>
   </head>
@@ -35,41 +39,41 @@
     <h1>Yeeeeah! Ici le site de Clem</h1> 
     </header>
   </div>
-    <div id ="menu">
-      <li class ="menu">Le matin
-      <li class>L'après-midi
-      <li class> <a href="form.html">Formulaire </a>
+    <div id ="menu" class ="contenu">
+      <ul>
+        <li class ="menu-item"><a href ="#matin">Le matin</a></li>
+        <li class ="menu-item"><a href ="#aprem">L'Après-midi</a></li>
+        <li class> <a href="#form">Formulaire </a>
       </li>
       </li>
     </div>
 
  <!--PARTIE 1 -->
-
+ <div class ="contenu" id ="matin">
     <h2> Matin</h2> 
       <div class ="contenu">
       <h3> 8h00 - 10h00 </h3>
-      <img style = "width=3px, heigth=10px" 
-      src="https://mastergeoprisme.files.wordpress.com/2016/03/carthageo.jpg?w=300">
-      <p>Problème de connexion à cause du  <strong>Confifi. </strong> </p>
-      </div>
-      <h3> 10h00 - 11h00 </h3>
-      <p>Lalala, j'ai un peu <strong>faim. </strong> </p>
-      <a href="http://www.google.fr">lien vers google</a>
+        <img style = "width=3px, heigth=10px" 
+        src="https://mastergeoprisme.files.wordpress.com/2016/03/carthageo.jpg?w=300">
+        <p>Problème de connexion à cause du  <strong>Confifi. </strong> </p>
+        </div>
+        <h3> 10h00 - 11h00 </h3>
+        <p>Lalala, j'ai un peu <strong>faim. </strong> </p>
+        <a href="http://www.google.fr">lien vers google</a>
 
       <h3> 11h00 - 12h00 </h3>
-      <ol>
-        <li>Puce</li>
-            <ol>
-            <li>Puce</li>
-            <li>Puce</li>
-      </ol> 
-        <li>Puce</li>
-            <ol>
-            <li>Puce</li>
-            <li>Puce</li>
-      </ol> 
-      </ol> 
-<div id = "block-droit" class ="fond-vert">
+        <ol>
+          <li>Puce</li>
+              <ol>
+              <li>Puce</li>
+              <li>Puce</li>
+        </ol> 
+          <li>Puce</li>
+              <ol>
+              <li>Puce</li>
+              <li>Puce</li>
+        </ol> 
+        </ol> 
   <table>
   <tr>
     <td>Cellule 1</td>
@@ -86,10 +90,18 @@
     <td>Cellule 2</td>
     <td>Cellule 3</td>
   </tr>
-</table>
+  </table>
+</div>
+
+<p>
+</p>
+
+</div>
 
  <!--PARTIE 2 -->
-<h2> Après-midi</h1> 
+ <div class="contenu" id="aprem"
+<h2>  </h2>
+<h2> Après-midi</h2> 
 
   <h3> 13h25 - 14h57 </h3>
    <p> Apprentissage des balises et exo 
@@ -115,6 +127,7 @@
            exemple d'insertion d'image:
            <img style = "width: 150px;heigth: 10px" src="https://mastergeoprisme.files.wordpress.com/2016/03/carthageo.jpg?w=300" alt="TexteAlternatif">
         </p>
+ </div>
 
 
   <div id = "form">    
@@ -132,17 +145,26 @@
         <option value="60">41-60 ans</option>
         <option value="80">61-80 ans</option>
         </select>
+        </label>
       <p> </p>
-    <input type="password" name ="password">
-    <label>Oui<input type="radio" name ="ouinon" value="1"></label>
-    <label>Non<input type="radio" name ="ouinon" value="1"></label>
-
-    <textarea name="infos"></textarea> 
-
+      <h6> créer un compte : </h6>
+     <p> </p>
+        <label> Nom d'utilisateur: <input type ="text" name="username"</label
+       <p> </p>
+       <label> Mot de passe : <input type="password" name ="password"> </label>
+     <p> </p>
+        <label> Voulez vous vous abonner ? : 
+        <label>Oui<input type="radio" name ="ouinon" value="1"></label>
+       <label>Non<input type="radio" name ="ouinon" value="1"></label>
+        <p> </p>
+        <label> des remarques ? :<textarea name="infos"></textarea> 
+ <p> </p>
    
     </form>
 </div>
-
+   <p> </p>
+    <p> </p>
+     <p> </p>
 <footer> Clémence Ehrhart--Pignon</footer>
       
     <a href="/me.html">My other page</a>
