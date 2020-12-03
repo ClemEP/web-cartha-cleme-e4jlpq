@@ -3,38 +3,49 @@ header{color : #B7FAEE ;
   margin : 90px;
   width: 300px;
   padding: 1px;
-  margin: auto;
+  margin: 20px;
   border: 2px solid #00614F;
   border-radius: 50px;
   box-sizing: border-box;
   background-color: #00614F;
-  margin-block-end: 30px;
+  margin-bottom: 30px;
 }
+
 #menu {
   width: 220px;
-  padding: 1px;
+  padding: 2px;
   margin: auto;
   border: 2px solid #00614F;
   border-radius: 50px;
   box-sizing: border-box;
   background-color: #00E0B7;
+  color: #00614F;}
+/* gérer les liens */
+
+#menu li, 
+#menu a {
+  color : #00614F;
+  text-decoration : none;
+  list-style: circle;
 }
 
 body {
   width : 300px;
   margin: auto;
   background: #B7FAEE;
-  font-size: 0.9em};
-  font-family: 'Raleway', sans-serif;
+  font-size: 0.9em;
+  font-family: 'Raleway', sans-serif}
 
 
 #contenu.matin {
-;
+  background-color: blue;
 
 }
 
 footer {
-  background: #00614F;
+  background: linear-gradient(150deg, #00614F, #00E0B7);
+  margin-top: 30px;
+  margin : auto
 }
 
 
