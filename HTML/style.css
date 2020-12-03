@@ -7,19 +7,37 @@ header{color : #B7FAEE ;
   border: 2px solid #00614F;
   border-radius: 50px;
   box-sizing: border-box;
-  background-color: #ffc146cb;
+  background-color: #00614F;
+  margin-block-end: 30px;
+}
+#menu {
+  width: 220px;
+  padding: 1px;
+  margin: auto;
+  border: 2px solid #00614F;
+  border-radius: 50px;
+  box-sizing: border-box;
+  background-color: #00E0B7;
 }
 
 body {
-  width : 100px;
+  width : 300px;
   margin: auto;
   background: #B7FAEE;
   font-size: 0.9em};
   font-family: 'Raleway', sans-serif;
+
+
+#contenu.matin {
+;
+
+}
+
 footer {
   background: #00614F;
 }
-/* tous les éléments contenus dans html auront la police Arial */
+
+
 html {
   font-family: 'Raleway', sans-serif;
 }
@@ -42,13 +60,4 @@ h3 {
   color: grey;
   font-family: 'Raleway', sans-serif
 }
-#menu {
-  margin : 90px;
-  width: 300px;
-  padding: 1px;
-  margin: auto;
-  border: 2px solid #00614F;
-  border-radius: 50px;
-  box-sizing: border-box;
-  background-color: #00E0B7;
-}
+
