@@ -1,4 +1,18 @@
+
+header{color : #B7FAEE ;
+  margin : 90px;
+  width: 300px;
+  padding: 1px;
+  margin: auto;
+  border: 2px solid #00614F;
+  border-radius: 50px;
+  box-sizing: border-box;
+  background-color: #ffc146cb;
+}
+
 body {
+  width : 100px;
+  margin: auto;
   background: #B7FAEE;
   font-size: 0.9em};
   font-family: 'Raleway', sans-serif;
@@ -27,4 +41,14 @@ h3 {
   font-size: 1.5em;
   color: grey;
   font-family: 'Raleway', sans-serif
+}
+#menu {
+  margin : 90px;
+  width: 300px;
+  padding: 1px;
+  margin: auto;
+  border: 2px solid #00614F;
+  border-radius: 50px;
+  box-sizing: border-box;
+  background-color: #00E0B7;
 }
