@@ -1,9 +1,19 @@
-
-header{color : #B7FAEE ;
-  margin : 90px;
+body {
+  min-height: 100vh;                  /* 1 */
+  display: grid;                      /* 2 */
+  grid-template-columns: 200px 1fr;   /* 3 */
+  grid-template-rows: 150px 1fr 50px;  /* 3 */
+  margin: auto;
+  background: #B7FAEE;
+  font-size: 0.9em;
+  font-family: 'Raleway', sans-serif}
+  
+header{
+  grid-column : 1 /span 2;
+  color : #B7FAEE ;
+  margin : auto;
   width: 300px;
   padding: 1px;
-  margin: 20px;
   border: 2px solid #00614F;
   border-radius: 50px;
   box-sizing: border-box;
@@ -12,6 +22,8 @@ header{color : #B7FAEE ;
 }
 
 #menu {
+  grid-column: 1;
+  grid-row: 2;
   width: 220px;
   padding: 2px;
   margin: auto;
@@ -19,8 +31,13 @@ header{color : #B7FAEE ;
   border-radius: 50px;
   box-sizing: border-box;
   background-color: #00E0B7;
-  color: #00614F;}
+  color: #00614F;
+   box-shadow: 1px 2px 3px black}
 /* gérer les liens */
+
+#article {
+  grid-column: 2;
+}
 
 #menu li, 
 #menu a {
@@ -29,23 +46,13 @@ header{color : #B7FAEE ;
   list-style: circle;
 }
 
-body {
-  width : 300px;
-  margin: auto;
-  background: #B7FAEE;
-  font-size: 0.9em;
-  font-family: 'Raleway', sans-serif}
-
-
-#contenu.matin {
-  background-color: blue;
-
-}
 
 footer {
   background: linear-gradient(150deg, #00614F, #00E0B7);
   margin-top: 30px;
-  margin : auto
+  margin : auto;
+  grid-column: 1/span 2;
+  grid-row: 3;
 }
 
 
