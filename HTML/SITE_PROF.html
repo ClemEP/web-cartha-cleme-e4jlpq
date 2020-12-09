@@ -1,0 +1,103 @@
+ <!-- <!DOCTYPE html> -->
+
+<html lang="fr">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Responsive web design</title>
+    <!-- définition des styles  -->
+    <link rel="stylesheet"
+    href="style_prof.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+  </head>
+
+
+  <body>
+    <header>
+      <h1>code CSS Responsive Web Design </h1> 
+    </header>
+
+    <div class = "md-content">
+      <article class = "md-content__inner md-typeset">
+
+        <h1>
+         <span> CSS </span>
+         Responsive Web Design 
+        </h1>
+
+        <p>
+         responsive web design, c’est le fait <strong>d’adapter un design web pour une multitude d’écrans </strong>, de très petits (montres connectées, smartphones) à très grands (ordinateur de bureau, smartTV, etc.). Cela afin d’offrir un confort de navigation et une expérience de lecture optimale. 
+        </p>
+
+         <p> Il existe techniquement 2 méthodes:</p>
+
+        <ul> 
+          <li> un site dédié</li>
+          <li> site unique, adaptatif </li>
+        </ul>
+
+        <h2> Site dédié vs. site adaptatif# </h2>
+
+       <p>  
+         <strong> Faire un site dédié revient donc à avoir plusieurs    sites distincts,</strong> référencés par plusieurs URLs. 
+       </p>
+
+        <p> Les avantages: </p>
+        <ul>
+         <li> bénéficier d’un contrôle précis de chaque version</li>
+         <li> Céer des workflow de travail séparés </li>
+        </ul>
+
+       <p> Les inconvénients:</p>
+
+       <ul>  
+         <li> contenu (potentiellement duplicate content)
+         <li> maintenance de plusieurs versions
+          détection de user-agent (technique non fiable </li>
+        </ul> 
+
+        <p> <strong> Faire un site adaptatif revient à créer un seul site. </strong></p>
+
+        <ul>
+          <li> Détection de user-agent (technique non fiable)</li>
+
+          <p> Les avantages:</p>
+
+          <ul>
+           <li> de détection de user-agent, juste les caractéristiques de l’écran </li>
+           <li> Cohérence dans le développement </li>
+           <li> mise à jour unique </li>
+           <li> sites sur un même écran </li>
+
+          <p> inconvénients: </p>
+
+          <li> contenu identique entre les versions </li>
+          <li> worflow de travail plus complexe </li>
+
+         <p> C’est la technique à privilégier.</p>
+       </ul>
+    
+        <h2> media-queries# </h2>
+
+        <p> 
+          Le principe des médias existe depuis toujours en CSS. Il s’agit de proposer une feuille de style différente pour l’affichage écran, pour l’impression, ou pour la rétroprojection. Dans les faits, seuls screen et print sont implémentés.
+        </p>
+        
+        <p class = "grise"> Cibler différents médias </p>
+
+       <p> 
+         &lt; link rel="stylesheet" media="screen" href="screen.css" &lt;
+       </p>
+       <p>
+          &lt; link rel="stylesheet" media="print" href="print.css"> &lt;
+
+       <p>
+          CSS3, il est maintenant possible de faire des requêtes de médias: les media-queries !
+       </p>
+     
+     </div>
+
+
+ </body>
+  </html>
