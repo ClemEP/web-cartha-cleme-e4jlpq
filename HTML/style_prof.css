@@ -29,6 +29,7 @@ body{
 header{
   position : fixed; /* le forcer à rester */
   top : 0; 
+  left: 0;
   right: 0; /* boite coller en haut et droite*/
  background: linear-gradient(45deg,deeppink, orange 75%, orangered);
  overflow : hidden;
@@ -66,7 +67,25 @@ header{
 }
 
 #md-content {
-  margin-top: 70px; /*espacement */
+}
+
+.menu {
+  background-color: red;
+}
+#md-content .menu, ul {
+  display: flex;        
+  flex-direction: column;  
+}
+#md-content .menu, li {
+  flex: 1 0 150px;       
+}
+
+#md-content .table, ul {
+  display: flex;        /* 1 */
+  flex-direction: row;  /* 2 */
+}
+#md-content .table, li {
+  flex: 1 0 150px;       /* 3 */
 }
 
 article {
