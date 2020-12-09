@@ -27,30 +27,46 @@ body{
 }
 
 header{
+  position : fixed; /* le forcer à rester */
+  top : 0; 
+  right: 0; /* boite coller en haut et droite*/
  background: linear-gradient(45deg,deeppink, orange 75%, orangered);
  overflow : hidden;
- height: 48px;
+ height: 40px;
 }
+
 .header_style {
-  display: flex;
+  display: flex; /* organisat° de gauche à droite*/
   margin : auto;
   width: 100%;
   max-width: 1212px;
 }
 
 .header_style > * {
-  padding: 0;
+  padding: 0; /* supprimer les marges par défault */
   margin: 0;
   font-size: 15px;
-  line-height: 25px;
+  line-height: 25px; /* = à la hauteur de la ligne de texte */
   height: 25px;
-  padding-top: 10px;
+  padding-top: 10px; 
+  margin-left: 5px;
+  margin-right: 5px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
+
+/* petite séparation */
 .header_style .separation {
   flex-grow: 1;
 }
 
+.header_style h4 span,
+.header_style p {
+  color: white;
+}
+
 #md-content {
+  margin-top: 70px; /*espacement */
 }
 
 article {
