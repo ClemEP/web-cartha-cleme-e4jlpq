@@ -72,7 +72,6 @@ header{
 #md-content{
   position: relative;
   display: grid; 
-  grid-template-columns: 230px 1fr 230px; 
   padding-top: 70px;
 }
 
