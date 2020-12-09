@@ -1,10 +1,75 @@
- div{             
-  font-size: 0.9em;
-  font-family: 'Roboto', sans-serif}
+html{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 1.5625rem;
+}
+h2{
+  font-size: 1.25rem;
+}
+
+p,
+ul {
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+code p {
+ padding: 0;
+ margin : 0;
+ line-height: 1.5;
+}
+body{
+    margin: auto;
+    background-color: #eff2f5;;
+}
 
 header{
- color: #fff;
- font-size: .9rem;
- line-height: 2.4rem;
- box-sizing: inherit;
+ background: linear-gradient(45deg,deeppink, orange 75%, orangered);
+ overflow : hidden;
+ height: 48px;
+}
+.header_style {
+  display: flex;
+  margin : auto;
+  width: 100%;
+  max-width: 1212px;
+}
+
+.header_style > * {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  line-height: 25px;
+  height: 25px;
+  padding-top: 10px;
+}
+.header_style .separation {
+  flex-grow: 1;
+}
+
+#md-content {
+}
+
+article {
+  max-width: 683px;
+  width: 100%;
+  margin: auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding-right: 1.2rem;
+  padding-left: 1.2rem;
+  padding-top: 0.6rem;
+}
+.bloc {
+  background-color: rgba(239, 242, 245, 0.5);
+}
+code {
+  background-color: transparent;
+}
+code p {
+  padding-left: 10px;
+  padding-right: 10px;
 }

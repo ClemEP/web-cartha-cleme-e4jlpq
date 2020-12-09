@@ -15,7 +15,16 @@
 
   <body>
     <header>
-      <h1>code CSS Responsive Web Design </h1> 
+      <div class ="header_style">
+        <p> &lt; &gt; </p>
+        <h4>CSS . <span> Responsive Web Design </span> </h4> 
+        <div class="separation"></div>
+        <form>
+          <input type="text"
+          name="search"
+          value= "Rechercher">
+        </form>
+      </div>
     </header>
 
     <div class = "md-content">
@@ -62,7 +71,7 @@
         <ul>
           <li> Détection de user-agent (technique non fiable)</li>
 
-          <p> Les avantages:</p>
+          Les avantages:
 
           <ul>
            <li> de détection de user-agent, juste les caractéristiques de l’écran </li>
@@ -70,10 +79,11 @@
            <li> mise à jour unique </li>
            <li> sites sur un même écran </li>
 
-          <p> inconvénients: </p>
+          Les inconvénients: 
 
           <li> contenu identique entre les versions </li>
           <li> worflow de travail plus complexe </li>
+          </ul>
 
          <p> C’est la technique à privilégier.</p>
        </ul>
@@ -85,19 +95,24 @@
         </p>
         
         <p class = "grise"> Cibler différents médias </p>
+        <div class="bloc">
+          <code>
+          <p> 
+            &lt; link rel="stylesheet" media="screen" href="screen.css" &lt;
+          </p>
+          <p>
+              &lt; link rel="stylesheet" media="print" href="print.css"> &lt;
 
-       <p> 
-         &lt; link rel="stylesheet" media="screen" href="screen.css" &lt;
-       </p>
-       <p>
-          &lt; link rel="stylesheet" media="print" href="print.css"> &lt;
-
-       <p>
-          CSS3, il est maintenant possible de faire des requêtes de médias: les media-queries !
-       </p>
-     
+          <p>
+              CSS3, il est maintenant possible de faire des requêtes de médias: les media-queries !
+          </p>
+          </code>
+        </div>
+      </article>     
      </div>
-
-
  </body>
-  </html>
+
+
+
+
+ </html>
